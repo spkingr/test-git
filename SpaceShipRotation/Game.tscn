@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+
+[node name="Game" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 395.479, 138.197 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -84.0
+margin_top = -10.0
+margin_right = 84.0
+margin_bottom = 10.0
+text = "Start Game (Key: W/A/D)"
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -14.0
+text = "Test the rotation of Rigdbody2D in Godot 3.1. Change the line in the function of '_ready' int Player.gd where I commented."
+align = 1
+[connection signal="pressed" from="CanvasLayer/Button" to="Player" method="startGame"]
