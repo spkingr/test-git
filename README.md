@@ -15,6 +15,13 @@ func _ready():
     # _changeState(states.ALIVE) #This line works but not what I wanted
 ```
 
+With the images representation:
+
+![cannot rotate image](https://github.com/spkingr/test-git/raw/master/images/godot/Rotation_of_rigidbody2d_1.gif)
+![normal rotation image](https://github.com/spkingr/test-git/raw/master/images/godot/Rotation_of_rigidbody2d_2.gif)
+
+I opened the issue in Godot official repository: [https://github.com/godotengine/godot/issues/30551](https://github.com/godotengine/godot/issues/30551)
+
 ## My git test repository
 
 Image: https://github.com/spkingr/test-git/raw/master/images/[dir]/[img].jpg
