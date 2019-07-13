@@ -7,7 +7,7 @@ The game built with Godot 3.1 represents the following issue:
 - in the `_ready` function if directly set the player state to *ALIVE* then all thing works fine
 - but if set the state as *INIT* first then with other events or clicks trigger, change the state to *ALIVE* and the **rotation** cannot work
 
-The code:
+The test code:
 
 ```python
 func _ready():
