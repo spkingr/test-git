@@ -26,3 +26,5 @@ I opened the issue in Godot official repository: [https://github.com/godotengine
 
 Image: https://github.com/spkingr/test-git/raw/master/images/[dir]/[img].jpg
 
+How to use image in repo: **change blob in image url to raw**.
+
